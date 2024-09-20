@@ -1,0 +1,72 @@
+/* General styles */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  text-align: center;
+  background-color: #4caf50;
+  color: white;
+  padding: 20px;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+/* Main content styles */
+main {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 10px 0;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Button styles */
+.btn {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+  margin-top: auto;
+}

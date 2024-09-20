@@ -1,0 +1,4 @@
+npm init -y
+npm install express mongoose dotenv
+
+paste MONGO_URI from mongodb atlas (dont forget to paste password)
