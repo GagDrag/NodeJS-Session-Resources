@@ -1,1 +1,3 @@
+npm init -y
+npm install dotenv nodemon express body-parser
 npx nodemon server.js
